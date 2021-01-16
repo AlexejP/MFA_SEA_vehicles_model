@@ -1,9 +1,9 @@
 # MFA_SEA_vehicles_model
-For using the model, please download all files into the folder that you use to run your python programs. 
-The file open the file 'MFA_SEA_model_supplementary_python' and run it first form line 1-181 and then run the second part. 
-For running different scenarios, please activate the scenario name you would like to use, e.g., 
-in the following 8 lines, scenario S70 is activated, which means that the vehicle outflows from the use stock will be used according to scenario S70.
-Similar procedure has to be employed for the vehicle inflows to the use phase and the component outflows from the use phase that are both indicated in the same format.
+#For using the model, please download all files into the folder that you use to run your python programs. 
+#The file open the file 'MFA_SEA_model_supplementary_python' and run it first form line 1-181 and then run the second part. 
+#For running different scenarios, please activate the scenario name you would like to use, e.g., 
+#in the following 8 lines, scenario S70 is activated, which means that the vehicle outflows from the use stock will be used according to scenario S70.
+#Similar procedure has to be employed for the vehicle inflows to the use phase and the component outflows from the use phase that are both indicated in the same format.
 
 1  #################################
 ####################################
