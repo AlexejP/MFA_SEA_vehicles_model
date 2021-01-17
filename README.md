@@ -1,11 +1,7 @@
 # MFA_SEA_vehicles_model
-Before reading furthr, please use the 'raw view' so that the lines are presented correctly. 
+Before reading further, please use the 'raw view' so that the lines are presented correctly. 
 
-For using the model, please download all files into the folder that you use to run your python programs. 
-The file open the file 'MFA_SEA_model_supplementary_python' and run it first form line 1-181 and then run the second part. 
-For running different scenarios, please activate the scenario name you would like to use, e.g., 
-in the following 8 lines, scenario S70 is activated, which means that the vehicle outflows from the use stock will be used according to scenario S70.
-Similar procedure has to be employed for the vehicle inflows to the use phase and the component outflows from the use phase that are both indicated in the same format.
+For using the model, please download all files into the folder that you use to run your python programs.The file open the file 'MFA_SEA_model_supplementary_python' and run it first form line 1-181 and then run the second part. For running different scenarios, please activate the scenario name you would like to use, e.g.,in the following 8 lines, scenario S70 is activated, which means that the vehicle outflows from the use stock will be used according to scenario S70. Similar procedure has to be employed for the vehicle inflows to the use phase and the component outflows from the use phase that are both indicated in the same format.
 
 1  #################################
 ####################################
@@ -16,10 +12,7 @@ outflow_df = S70_out          #1
 #outflow_df = S100D_CE_plus_out #5
 ####################################
 
-For using changes in recycling rates or the degree of component reuse, you will need to change values in the following passage. 
-As an example, if you change the year from 2052 to 2025 the improved transfer-coefficients (improved recycling) will be employed from the year 2025. 
-As the program runs only until the year 2050, setting 'if year < 2052' means that no improvements will be employed in relation to the transfer-coefficients.
-By the 'ev_battery_r' or 'ev_motors_r' the transfer-coefficients will be directly changed from the specific year onwards.
+For using changes in recycling rates or the degree of component reuse, you will need to change values in the following passage. As an example, if you change the year from 2052 to 2025 the improved transfer-coefficients (improved recycling) will be employed from the year 2025. As the program runs only until the year 2050, setting 'if year < 2052' means that no improvements will be employed in relation to the transfer-coefficients. By the 'ev_battery_r' or 'ev_motors_r' the transfer-coefficients will be directly changed from the specific year onwards.
 
 #recycling rates for components (diversion to recycling processes)
         try:
